@@ -14,11 +14,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/595708049/warm-charcoal-theme.git"
+    "url": "git+https://github.com/595708049/dsh-warm-charcoal-theme.git"
   },
-  "homepage": "https://github.com/595708049/warm-charcoal-theme#readme",
+  "homepage": "https://github.com/595708049/dsh-warm-charcoal-theme#readme",
   "bugs": {
-    "url": "https://github.com/595708049/warm-charcoal-theme/issues"
+    "url": "https://github.com/595708049/dsh-warm-charcoal-theme/issues"
   },
   "exports": {
     ".": "./index.js",
