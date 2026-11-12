@@ -22,17 +22,41 @@ A palette plugin for DeepSeek Harness. It does not add a new theme id and does n
 
 ## Install
 
+Pick whichever line matches where you are installing from.
+
+From the plugin market — open **Settings → Plugins → Add plugin** and paste:
+
+```
+https://github.com/595708049/dsh-warm-charcoal-theme
+```
+
+From a shell, the same source as a spec:
+
+```
+dsh plugin add https://github.com/595708049/dsh-warm-charcoal-theme
+```
+
+If the package is published to npm, the short form works too:
+
 ```
 dsh plugin add dsh-warm-charcoal-theme
 ```
 
-From a local checkout instead:
+From a checkout you already have, point at the directory (absolute path):
 
 ```
-dsh plugin add /absolute/path/to/warm-charcoal-theme
+dsh plugin add /absolute/path/to/dsh-warm-charcoal-theme
+```
+
+Fully offline, from a packed tarball:
+
+```
+dsh plugin add /absolute/path/to/dsh-warm-charcoal-theme-1.0.0.tgz
 ```
 
 Then reload the web UI. The palette applies immediately; switch between light and dark in **Settings → General → Appearance**.
+
+The plugin adds no settings page of its own — switching, following the system and remembering the choice all happen in that existing Appearance row.
 
 | Appearance switch — light | Appearance switch — dark |
 |---|---|
