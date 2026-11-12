@@ -2,6 +2,10 @@
 
 A palette plugin for DeepSeek Harness. It does not add a new theme id and does not change layout or behaviour: it overrides the design tokens of the two built-in themes, so the existing **Settings → General → Appearance** switch keeps working and the harness keeps remembering the choice.
 
+| Light — Warm Beige | Dark — Dark Charcoal |
+|---|---|
+| ![Light](assets/screenshots/light.png) | ![Dark](assets/screenshots/dark.png) |
+
 | | Light — Warm Beige | Dark — Dark Charcoal |
 |---|---|---|
 | Page background | `#F7F7F2` | `#1E1E1E` |
@@ -29,6 +33,10 @@ dsh plugin add /absolute/path/to/warm-charcoal-theme
 ```
 
 Then reload the web UI. The palette applies immediately; switch between light and dark in **Settings → General → Appearance**.
+
+| Appearance switch — light | Appearance switch — dark |
+|---|---|
+| ![Appearance in light](assets/screenshots/settings-light.png) | ![Appearance in dark](assets/screenshots/settings-dark.png) |
 
 ## What it does
 
